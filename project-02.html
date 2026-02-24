@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>YLIER LUO — PROJECT 02</title>
+  <meta name="description" content="YLIER LUO — PROJECT 02" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header site-header--fixed" id="siteHeader">
+    <a class="brand" href="index.html" aria-label="Home">YLIER LUO</a>
+    <nav class="nav">
+      <a class="nav-link" href="info.html">INFO</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <article class="project">
+      <header class="project-head">
+        <h1 class="project-title">PROJECT 02</h1>
+        <div class="project-line">Cinematography</div>
+      </header>
+
+      <section class="project-body">
+        <div class="video">
+          <iframe
+            src="https://player.vimeo.com/video/XXXXXXXXX"
+            title="PROJECT 02"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <figure class="project-media">
+          <img src="assets/project-02-01.jpg" alt="Project 02 still 01" loading="lazy" decoding="async" />
+        </figure>
+      </section>
+
+      <footer class="project-foot">
+        <a class="back" href="index.html">BACK</a>
+      </footer>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    © <span id="y-year"></span> YLIER LUO
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('y-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

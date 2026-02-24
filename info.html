@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>YLIER LUO — Info</title>
+  <meta name="description" content="YLIER LUO — Info" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header site-header--fixed" id="siteHeader">
+    <a class="brand" href="index.html" aria-label="Home">YLIER LUO</a>
+    <nav class="nav">
+      <a class="nav-link" href="info.html">INFO</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="info">
+      <p class="info-text">YLIER LUO.</p>
+
+      <!-- 可选：你想加一段非常克制的文字，就放这里（不写标签口号） -->
+      <!-- <p class="info-text muted">Based in ____. Available for collaborations.</p> -->
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    © <span id="y-year"></span> YLIER LUO
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('y-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
